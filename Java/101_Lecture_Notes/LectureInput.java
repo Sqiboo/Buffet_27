@@ -8,16 +8,16 @@ class LectureInput{
 	System.out.println("Here's a list of our goodies:");
     
     double item1Price = 2.99;
-    System.out.println("Sour Patch Kids - $" + item1Price);
-    System.out.println("item1Price"); 
+    System.out.println("Sour Patch Kids - $");
+    System.out.println(item1Price); 
 
     double item2Price = 0.99;
-    System.out.println("Chester's Hot Fries - $" + item2Price);
+    System.out.println("Chester's Hot Fries - $");
+    System.out.println(item2Price);
 
-    System.out.println("Can of Coke - $" + item3Price);
-    
     double item3Price = 1.99;
-    System.out.println("item3Price");
+    System.out.println("Coca Cola - $");
+    System.out.print(item3Price);
     
 
 
