@@ -13,5 +13,6 @@ class starter {
 		System.out.println("A number between 0 and 9:" + (int)(Math.random() * 10));
 		System.out.println("A number between 1 and 10:" + (int)(Math.random() * 10 + 1));
 		System.out.println("A number between 2.5 and 3.5:" + (Math.random() * 1 + 2.5));
+		System.out.println("A double between 14 and 589:" + (Math.random() * 575 + 14));
 	}
 }
