@@ -19,7 +19,7 @@ class starter {
 				break;
 			}
 			System.out.println(name);
-			i++;
+			i++;9
 		}
 
 		
