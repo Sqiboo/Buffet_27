@@ -23,5 +23,24 @@ class starter {
 			System.out.println();
 			height--;
 		}
+
+        System.out.println("Please enter a integer: ");
+        int integer = sc.nextInt();
+
+       int i = 1;
+	while (integer > i+1) {
+	
+		
+		while (integer > 0) {
+			System.out.print("*");
+			integer--;
+		}
+		i++;
+		System.out.println();
+		
+     
+
 	}
+
+	} 
 }
