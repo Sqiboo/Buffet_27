@@ -1,0 +1,7 @@
+import random
+baka = int(input("How many random numbers do you want to generate?"))
+numbers = []
+print("Your numbers are: ")
+for i in range(0, baka):
+    numbers.append(random.randint(1,10))
+print(numbers)
